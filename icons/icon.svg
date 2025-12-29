@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a3a"/>
+      <stop offset="100%" stop-color="#0a0a1a"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4050d0"/>
+      <stop offset="50%" stop-color="#2030a0"/>
+      <stop offset="100%" stop-color="#101060"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4040"/>
+      <stop offset="50%" stop-color="#d01010"/>
+      <stop offset="100%" stop-color="#900000"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#40c040"/>
+      <stop offset="50%" stop-color="#208020"/>
+      <stop offset="100%" stop-color="#105010"/>
+    </linearGradient>
+    <linearGradient id="yellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0e040"/>
+      <stop offset="50%" stop-color="#d0b020"/>
+      <stop offset="100%" stop-color="#a08010"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a050d0"/>
+      <stop offset="50%" stop-color="#7030a0"/>
+      <stop offset="100%" stop-color="#401060"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="url(#bg)"/>
+  
+  <!-- Pentagon shape as logo - stylized IQ Pentagon board -->
+  <!-- Center pentagon outline -->
+  <polygon points="256,80 420,200 360,400 152,400 92,200" 
+           fill="none" stroke="#3a3a6a" stroke-width="8"/>
+  
+  <!-- Colored pentagon pieces arranged nicely -->
+  <!-- Blue piece -->
+  <polygon points="200,150 240,150 260,190 220,210 180,190" 
+           fill="url(#blue)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Red piece -->
+  <polygon points="280,150 320,150 340,190 300,210 260,190" 
+           fill="url(#red)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Green piece -->
+  <polygon points="140,220 180,220 200,260 160,280 120,260" 
+           fill="url(#green)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Yellow piece -->
+  <polygon points="320,220 360,220 380,260 340,280 300,260" 
+           fill="url(#yellow)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Purple piece -->
+  <polygon points="230,270 270,270 290,310 250,330 210,310" 
+           fill="url(#purple)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Text IQ -->
+  <text x="256" y="420" text-anchor="middle" 
+        font-family="Arial Black, sans-serif" font-size="80" font-weight="900"
+        fill="#ffffff" stroke="#000" stroke-width="2">IQ</text>
+</svg>
